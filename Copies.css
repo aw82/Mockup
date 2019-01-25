@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i|Slabo+27px');
+
+
+body { font-family: 'Slabo 27px', serif;
+	font-family: 'Merriweather Sans', sans-serif; 
+	font-size: 16px;
+	font-weight: 400;
+	color: #6E6E6E;
+	margin: 0;
+	padding: 0; background: -moz-radial-gradient(circle, #FFFFFF 80%, #A9A9A9); }
+
+#copies{max-width: 1200px; margin: 0 auto; position: relative;  }
+
+
+	/*text*/	
+h1 {margin: 0 0 1em 0; font-size: 3em; font-weight: 700; }
+h2 {margin: 0 0 .5em 0; font-size: 2em; font-weight: 700; line-height: 2em}
+h3 {margin: 0 0 .5em 0; font-size: 1em; font-weight: 700; }
+h4 {margin: 0 0 1.5em 0; font-size: .8em; font-weight: 700; }
+
+p {margin: 0 0 1em 0; }
+a {color: #007EFF;}	
+a:visited {color: #B16830; }
+
+
+/*header*/	
+header {height: 100px; }
+header a.logo {z-index: 1; position: absolute; display: block; width: 180px; height: 88px; background: url(logo6.png) no-repeat 0 0; background-size: contain; top: 60px; left: 130px; }
+header a.logo span {display: none; }
+header div.hero {position: absolute; width: 42%; top: 60px; left: 25%; }
+header div.hero h1 {line-height: 1em; margin: 0 0 30px 0; color: #8005AB; font-style: italic; }
+header div.hero h3{position: absolute; width: 42%; top: 20px; left: 140%; }
+header div.hero h3 {line-height: 1em; margin: 0 0 30px 0; color: #8005AB; }
+
+form {width:300px; line-height: 1em; margin-top: -30px; color: #8005AB; padding-left: 635px; }
+	.search {padding:8px 15px; background:rgba(50, 50, 50, 0.2); border:0px solid #dbdbdb; }
+    .button {position:relative;  padding:6px 15px; left:-8px; border:2px solid #207cca; background-color:#207cca; color:#fafafa; }
+    .button:hover  { background-color:#fafafa; color:#207cca; }
+
+/*Section - All*/	
+section {padding: 30px; }
+section::after {content: ''; display: block; clear: both; }
+
+/*Section - Main*/	
+section.Main {margin-bottom: 30px; padding: 0;  }
+section.Main aside .content {margin: 50px; text-align: center; }
+section.Main aside .content.row1{ width: 100%; float: left; text-align: center; margin-top: -2%;  }
+section.Main aside .content.row2 { width: 100%; float: left; text-align: center; margin-top: -2%;  }
+
+section.Main .content {margin: 30px; background: no-repeat center top; background-size: 75px 75px; padding-top: 30px; }
+
+section.Main aside .content.row1 img {width: 13%; margin-top: 5px; float: left; margin-right: 20px; margin-left: 10px; margin-bottom: 5px; }
+section.Main aside .content.row2 img {width: 13%; margin-top: 5px; float: left; margin-right: 20px; margin-left: 10px; margin-bottom: 5px; }
+
+
+section.Main aside .content.buy1 button {border-radius: 30px;}
+section.Main aside .content.buy2 button {border-radius: 30px;}
+section.Main aside .content.buy3 button {border-radius: 30px;}
+section.Main aside .content.buy4 button {border-radius: 30px;}
+section.Main aside .content.buy5 button {border-radius: 30px;}
+section.Main aside .content.buy6 button {border-radius: 30px;}
+section.Main aside .content.buy7 button {border-radius: 30px;}
+section.Main aside .content.buy8 button {border-radius: 30px;}
+section.Main aside .content.buy9 button {border-radius: 30px;}
+section.Main aside .content.buy10 button {border-radius: 30px;}
+section.Main aside .content.buy11 button {border-radius: 30px;}
+section.Main aside .content.buy12 button {border-radius: 30px;}
+
+
+section.Main aside .content.buy1 {width:18%;  float: left; margin-right: 0; margin-left: 30px; margin-top: -60px; }
+section.Main aside .content.buy2 {width:18%;  float: left; margin-right: 1px; margin-left: -30px; margin-top: -60px;  }
+section.Main aside .content.buy3 {width:18%;  float: left; margin-right: 5px; margin-left: -30px; margin-top: -60px; }
+section.Main aside .content.buy4 {width:18%; float: left; margin-right: 5px; margin-left: -30px; margin-top: -60px; }
+section.Main aside .content.buy5 {width:18%; float: left; margin-right: 5px; margin-left: -33px; margin-top: -60px;  }
+section.Main aside .content.buy6 {width:18%; float: left; margin-right: 5px; margin-left: -35px; margin-top: -60px; }
+section.Main aside .content.buy7 {width:18%;  float: left; margin-right: 0; margin-left: 30px; margin-top: -60px; }
+section.Main aside .content.buy8 {width:18%;  float: left; margin-right: 1px; margin-left: -30px; margin-top: -60px; }
+section.Main aside .content.buy9 {width:18%;  float: left; margin-right: 5px; margin-left: -30px; margin-top: -60px; }
+section.Main aside .content.buy10 {width:18%; float: left; margin-right: 5px; margin-left: -30px; margin-top: -60px; }
+section.Main aside .content.buy11 {width:18%; float: left; margin-right: 5px; margin-left: -33px; margin-top: -60px; }
+section.Main aside .content.buy12 {width:18%; float: left; margin-right: 5px; margin-left: -35px; margin-top: -60px; }
+
+section.Main aside .content.drop1 {width:18%;  float: left; margin-right: 0; margin-left: 30px; margin-top: -70px;}
+section.Main aside .content.drop2 {width:18%;  float: left; margin-right: 1px; margin-left: -30px; margin-top: -70px;}
+section.Main aside .content.drop3 {width:18%;  float: left; margin-right: 5px; margin-left: -30px; margin-top: -70px;}
+section.Main aside .content.drop4 {width:18%; float: left; margin-right: 5px; margin-left: -30px; margin-top: -70px;}
+section.Main aside .content.drop5 {width:18%; float: left; margin-right: 5px; margin-left: -33px; margin-top: -70px; }
+section.Main aside .content.drop6 {width:18%; float: left; margin-right: 5px; margin-left: -35px; margin-top: -70px;}
+section.Main aside .content.drop7 {width:18%;  float: left; margin-right: 0; margin-left: 30px; margin-top: -70px;}
+section.Main aside .content.drop8 {width:18%;  float: left; margin-right: 1px; margin-left: -30px; margin-top: -70px;}
+section.Main aside .content.drop9 {width:18%;  float: left; margin-right: 5px; margin-left: -30px; margin-top: -70px;}
+section.Main aside .content.drop10 {width:18%; float: left; margin-right: 5px; margin-left: -30px; margin-top: -70px;}
+section.Main aside .content.drop11 {width:18%; float: left; margin-right: 5px; margin-left: -33px; margin-top: -70px;}
+section.Main aside .content.drop12 {width:18%; float: left; margin-right: 5px; margin-left: -35px; margin-top: -70px;}
+	
+/*Nav*/	
+nav {position: absolute; top: 90px; left: 0px; padding: 50px 0 0 200px; width: 100%; }
+
+nav::after {content: ''; display: block; clear: both; }
+
+nav ul {list-style: none; margin: 0; padding: 0px; }
+
+nav ul li:hover > ul {display: block; }
+
+nav ul li a {display: inline-block; color: #19120C; padding: 10px 20px; text-decoration: none; width: 125px; position: relative; }
+
+nav ul li a:visited {color: #B16830; }
+
+nav ul li a:hover {background-color: #8005AB; }
+
+nav ul ul {position: absolute; top: 100%; background-color: #FFFFFF; display: none; }
+
+nav ul ul li {position: relative; }
+
+
+/*Top level*/	
+nav > ul {padding-left: 200px; }
+
+nav > ul > li {float: left; }
+
+nav > ul > li > a {width: auto; padding: 10px 20px 15px 20px; }
+
+/*Footer*/	
+footer {font-size: .8em; margin: 40px; color: #8005AB; text-align: center; }
+
+
+@media screen and (max-width: 1230px) {
+h1 {font-size: 2.7em; }
+		
+/*header*/
+header div.hero h3{left: 130%; }
+
+/*search*/
+form { margin-left: -10%; }
+
+/*navigation*/
+nav > ul {padding-left: 230px; }
+nav > ul > li > a { width: auto; padding: 2px 30px 0 0;  }
+
+}
+
+@media screen and (max-width: 1200px) {
+		
+/*header*/
+header div.hero h3{left: 132%; }
+
+/*navigation*/
+nav > ul {padding-left: 200px; }
+nav > ul > li > a { width: auto; padding: 2px 25px 0 0;  }
+
+/*section Main*/
+section.Main aside .content { margin: 60px; }
+section.Main aside .content.picture { margin-left: 200px; }
+
+/*buy and dropdown*/
+section.Main aside .content.buy1 {margin-left: 42px;}
+section.Main aside .content.buy7 {margin-left: 42px;}
+
+section.Main aside .content.drop1 {margin-left: 42px;}
+section.Main aside .content.drop7 {margin-left: 42px;}
+
+}
+@media screen and (max-width: 1140px) {
+h1 {font-size: 2.3em; }
+		
+/*header*/
+header div.hero h3{left: 125%; }
+
+/*search*/
+form { margin-left: -25%; padding-top: 5px;}
+
+/*section Main*/
+section.Main aside .content { margin: 40px; margin-top: 60px; }
+section.Main aside .content.picture { margin-left: 100px; }
+
+/*navigation*/
+nav > ul {padding-left: 230px; }
+nav > ul > li > a { width: auto; padding: 2px 20px 0 0;  }
+
+/*buy and dropdown*/
+section.Main aside .content.buy1 {margin-left: 25px; margin-top: -50px; }
+section.Main aside .content.buy2 {margin-left: -30px; margin-top: -50px;  }
+section.Main aside .content.buy3 {margin-left: -25px; margin-top: -50px; }
+section.Main aside .content.buy4 {margin-top: -50px; }
+section.Main aside .content.buy5 {margin-left: -30px; margin-top: -50px;  }
+section.Main aside .content.buy6 {margin-left: -35px; margin-top: -50px; }
+section.Main aside .content.buy7 {margin-left: 25px; margin-top: -50px; }
+section.Main aside .content.buy8 {margin-left: -30px; margin-top: -50px;  }
+section.Main aside .content.buy9 {margin-left: -25px; margin-top: -50px; }
+section.Main aside .content.buy10 {margin-top: -50px; }
+section.Main aside .content.buy11 {margin-left: -30px; margin-top: -50px;  }
+section.Main aside .content.buy12 {margin-left: -35px; margin-top: -50px; }
+
+
+section.Main aside .content.drop1 {margin-left: 23px;}
+section.Main aside .content.drop2 {margin-left: -27px;}
+section.Main aside .content.drop3 {margin-left: -27px;}
+section.Main aside .content.drop4 {margin-left: -30px;}
+section.Main aside .content.drop5 {margin-left: -33px;}
+section.Main aside .content.drop6 {margin-left: -30px;}
+section.Main aside .content.drop7 {margin-left: 23px;}
+section.Main aside .content.drop8 {margin-left: -27px;}
+section.Main aside .content.drop9 {margin-left: -27px;}
+section.Main aside .content.drop10 {margin-left: -30px;}
+section.Main aside .content.drop11 {margin-left: -31px;}
+section.Main aside .content.drop12 {margin-left: -31px;}
+
+}
+
+@media screen and (max-width: 1040px) {
+		
+/*header*/
+h1 {font-size: 2.1em; }
+header div.hero h3{left: 113%; }
+
+/*search*/
+form { margin-left: -52%; }
+
+/*section Main*/
+section.Main aside .content { margin: 30px; }
+section.Main aside .content.picture { margin-left: -100px; padding-right: 20px;}
+
+/*navigation*/
+nav > ul {margin-left: -140px; padding-left: 250px; }
+nav > ul > li > a { width: auto; padding: 10px 10px 15px 11px;  }
+
+/*buy and dropdown*/
+section.Main aside .content.buy1 {margin-left: 16px; margin-top: -40px; }
+section.Main aside .content.buy2 {margin-left: -23px; margin-top: -40px;  }
+section.Main aside .content.buy3 {margin-left: -22px; margin-top: -40px; }
+section.Main aside .content.buy4 {margin-left: -21px; margin-top: -40px; }
+section.Main aside .content.buy5 {margin-left: -28px; margin-top: -40px;  }
+section.Main aside .content.buy6 {margin-left: -26px; margin-top: -40px; }
+section.Main aside .content.buy7 {margin-left: 16px; margin-top: -40px; }
+section.Main aside .content.buy8 {margin-left: -23px; margin-top: -40px;  }
+section.Main aside .content.buy9 {margin-left: -22px; margin-top: -40px; }
+section.Main aside .content.buy10 {margin-left: -21px; margin-top: -40px; }
+section.Main aside .content.buy11 {margin-left: -28px; margin-top: -40px;  }
+section.Main aside .content.buy12 {margin-left: -26px; margin-top: -40px; }
+
+
+section.Main aside .content.drop1 {margin-left: 16px; margin-top: -50px; }
+section.Main aside .content.drop2 {margin-left: -23px; margin-top: -50px; }
+section.Main aside .content.drop3 {margin-left: -22px; margin-top: -50px; }
+section.Main aside .content.drop4 {margin-left: -23px; margin-top: -50px; }
+section.Main aside .content.drop5 {margin-left: -28px; margin-top: -50px; }
+section.Main aside .content.drop6 {margin-left: -25px; margin-top: -50px; }
+section.Main aside .content.drop7 {margin-left: 16px; margin-top: -50px; }
+section.Main aside .content.drop8 {margin-left: -23px; margin-top: -50px; }
+section.Main aside .content.drop9 {margin-left: -22px; margin-top: -50px; }
+section.Main aside .content.drop10 {margin-left: -23px; margin-top: -50px; }
+section.Main aside .content.drop11 {margin-left: -28px; margin-top: -50px; }
+section.Main aside .content.drop12 {margin-left: -25px; margin-top: -50px; }
+}
+
+
+
+@media screen and (max-width: 870px) {
+/*header*/
+header a.logo {left: 40px; width: 160px; height: 68px;}
+header div.hero h1{margin-top: -15px;}
+header div.hero h3{font-size: .9em; }
+
+		
+/*search*/
+form { margin-left: -88%; padding-top: 20px;}
+
+/*navigation*/
+nav > ul > li > a { width: auto; padding: 2px 10px 0 0;  }
+
+/*section*/
+section.Main aside .content.row1 {margin-left: 120px; width: 90%; }
+section.Main aside .content.row1 img{height: 100px; width: 180px; margin-bottom: 110px;}
+section.Main aside .content.row2 {margin-left: 120px; width: 90%; padding-top: 0;}
+section.Main aside .content.row2 img{height: 100px; width: 180px; margin-bottom: 110px;}
+section.Main aside .content h2{font-size: 1.4em; padding-top: 25px;}
+
+/*buy and dropdown*/
+section.Main aside .content.buy1 {margin-left: 140px; margin-top: -330px; }
+section.Main aside .content.buy2 {margin-left: 350px; margin-top: -330px;  }
+section.Main aside .content.buy3 {margin-left: 565px; margin-top: -330px; }
+section.Main aside .content.buy4 {margin-left: 140px; margin-top: -115px; }
+section.Main aside .content.buy5 {margin-left: 350px; margin-top: -115px;  }
+section.Main aside .content.buy6 {margin-left: 565px; margin-top: -115px; }
+
+section.Main aside .content.buy7 {margin-left: 140px; margin-top: -330px; }
+section.Main aside .content.buy8 {margin-left: 350px; margin-top: -330px;  }
+section.Main aside .content.buy9 {margin-left: 565px; margin-top: -330px; }
+section.Main aside .content.buy10 {margin-left: 140px; margin-top: -115px; }
+section.Main aside .content.buy11 {margin-left: 350px; margin-top: -115px;  }
+section.Main aside .content.buy12 {margin-left: 565px; margin-top: -115px; }
+
+
+section.Main aside .content.drop1 {margin-left: 140px; margin-top: -370px; }
+section.Main aside .content.drop2 {margin-left: 350px; margin-top: -370px; }
+section.Main aside .content.drop3 {margin-left: 565px; margin-top: -370px; }
+section.Main aside .content.drop4 {margin-left: 140px; margin-top: -155px; }
+section.Main aside .content.drop5 {margin-left: 350px; margin-top: -155px; }
+section.Main aside .content.drop6 {margin-left: 565px; margin-top: -155px; }
+
+section.Main aside .content.drop7 {margin-left: 140px; margin-top: -370px; }
+section.Main aside .content.drop8 {margin-left: 350px; margin-top: -370px; }
+section.Main aside .content.drop9 {margin-left: 565px; margin-top: -370px; }
+section.Main aside .content.drop10 {margin-left: 140px; margin-top: -155px; }
+section.Main aside .content.drop11 {margin-left: 350px; margin-top: -155px; }
+section.Main aside .content.drop12 {margin-left: 565px; margin-top: -155px; }
+
+/*footer*/
+footer {padding-left: 25px;}
+}
+
+
+@media screen and (max-width: 670px) {
+/*header*/
+header a.logo {left: 40px; width: 160px; height: 68px;}
+h1 {font-size: 2em; }
+header div.hero h3{font-size: .8em; left: 337px; padding-top: 10px;}
+
+/*search*/
+form { margin-left: -145%; padding-top: 30px; }
+
+/*navigation*/
+nav > ul {margin-left: -255px; }
+nav > ul > li > a { width: auto; padding: 2px 4px 0 0;  }
+
+/*section*/
+section.Main aside .content h2 {font-size: 1.5em; padding-top: 20px;}
+section.Main aside .content.row1 {margin-left: 85px; width: 90%; }
+section.Main aside .content.row1 img{height: 150px; width: 220px; margin-bottom: 110px;}
+section.Main aside .content.row2 {margin-left: 85px; width: 90%; padding-top: 0;}
+section.Main aside .content.row2 img{height: 150px; width: 220px; margin-bottom: 110px;}
+
+
+/*buy and dropdown*/
+section.Main aside .content.buy1 {margin-left: 145px; margin-top: -650px; }
+section.Main aside .content.buy2 {margin-left: 395px; margin-top: -650px;  }
+section.Main aside .content.buy3 {margin-left: 145px; margin-top: -385px; }
+section.Main aside .content.buy4 {margin-left: 400px; margin-top: -385px; }
+section.Main aside .content.buy5 {margin-left: 145px; margin-top: -120px;  }
+section.Main aside .content.buy6 {margin-left: 398px; margin-top: -120px; }
+
+section.Main aside .content.buy7 {margin-left: 145px; margin-top: -650px; }
+section.Main aside .content.buy8 {margin-left: 395px; margin-top: -650px;  }
+section.Main aside .content.buy9 {margin-left: 145px; margin-top: -385px; }
+section.Main aside .content.buy10 {margin-left: 400px; margin-top: -385px; }
+section.Main aside .content.buy11 {margin-left: 145px; margin-top: -120px;  }
+section.Main aside .content.buy12 {margin-left: 398px; margin-top: -120px; }
+
+
+section.Main aside .content.drop1 {margin-left: 145px; margin-top: -685px; }
+section.Main aside .content.drop2 {margin-left: 395px; margin-top: -685px; }
+section.Main aside .content.drop3 {margin-left: 398px; margin-top: -420px; }
+section.Main aside .content.drop4 {margin-left: 145px; margin-top: -420px; }
+section.Main aside .content.drop5 {margin-left: 145px; margin-top: -155px; }
+section.Main aside .content.drop6 {margin-left: 398px; margin-top: -155px; }
+
+section.Main aside .content.drop7 {margin-left: 145px; margin-top: -685px; }
+section.Main aside .content.drop8 {margin-left: 395px; margin-top: -685px; }
+section.Main aside .content.drop9 {margin-left: 398px; margin-top: -420px; }
+section.Main aside .content.drop10 {margin-left: 145px; margin-top: -420px; }
+section.Main aside .content.drop11 {margin-left: 145px; margin-top: -155px; }
+section.Main aside .content.drop12 {margin-left: 398px; margin-top: -155px; }
+
+/*footer*/
+footer {padding-left: 15px;}
+}
+
+@media screen and (max-width: 470px) {
+/*header*/
+h1 {font-size: 1.85em; padding-top: 10px; }
+header div.hero {width: 100%; top: 20px; left: 47%; }
+header div.hero h3{font-size: 1em; top: 25px; left: 5%; }
+
+/*search*/
+form { margin-left: -143%; padding-top: 40px;}
+
+/*navigation*/
+nav > ul {margin-left: -415px; }
+nav > ul > li > a { width: auto; padding: 1px 2px 0 0; font-size: .9em; }
+
+/*section*/
+section.Main aside .content.row1 img{margin-left: 30px; height: 170px; width: 250px; margin-bottom: 110px;}
+section.Main aside .content.row2 img{margin-left: 30px; height: 170px; width: 250px; margin-bottom: 110px;}
+section.Main aside .content h2{font-size: 1.2em; }
+
+/*buy and dropdown*/
+section.Main aside .content.buy1 {margin-left: 190px; margin-top: -1540px; }
+section.Main aside .content.buy2 {margin-left: 190px; margin-top: -1255px;  }
+section.Main aside .content.buy3 {margin-left: 190px; margin-top: -970px; }
+section.Main aside .content.buy4 {margin-left: 190px; margin-top: -684px; }
+section.Main aside .content.buy5 {margin-left: 190px; margin-top: -400px;  }
+section.Main aside .content.buy6 {margin-left: 190px; margin-top: -115px; }
+
+section.Main aside .content.buy7 {margin-left: 190px; margin-top: -1540px; }
+section.Main aside .content.buy8 {margin-left: 190px; margin-top: -1255px;  }
+section.Main aside .content.buy9 {margin-left: 190px; margin-top: -970px; }
+section.Main aside .content.buy10 {margin-left: 190px; margin-top: -684px; }
+section.Main aside .content.buy11 {margin-left: 190px; margin-top: -400px;  }
+section.Main aside .content.buy12 {margin-left: 190px; margin-top: -115px; }
+
+
+section.Main aside .content.drop1 {margin-left: 183px; margin-top: -1580px; }
+section.Main aside .content.drop2 {margin-left: 183px; margin-top: -1295px; }
+section.Main aside .content.drop3 {margin-left: 183px; margin-top: -1010px; }
+section.Main aside .content.drop4 {margin-left: 183px; margin-top: -725px; }
+section.Main aside .content.drop5 {margin-left: 183px; margin-top: -440px; }
+section.Main aside .content.drop6 {margin-left: 183px; margin-top: -155px; }
+
+section.Main aside .content.drop7 {margin-left: 183px; margin-top: -1580px; }
+section.Main aside .content.drop8 {margin-left: 183px; margin-top: -1295px; }
+section.Main aside .content.drop9 {margin-left: 183px; margin-top: -1010px; }
+section.Main aside .content.drop10 {margin-left: 183px; margin-top: -725px; }
+section.Main aside .content.drop11 {margin-left: 183px; margin-top: -440px; }
+section.Main aside .content.drop12 {margin-left: 183px; margin-top: -155px; }
+
+/*footer*/
+footer {padding-left: 10px;}
+}
+
